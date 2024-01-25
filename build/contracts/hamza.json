@@ -1,0 +1,118 @@
+{
+  "contractName": "hamza",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/hamza.sol\":\"hamza\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/hamza.sol\":{\"keccak256\":\"0xb71df37255ea0c38d87251ea7bfdc179ff9206e2ac3806e06ba90e17cf24068a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://388b8497fbaa59e2840cabd36c0ceccbc44ff0b3e7a96874643272dfb308feef\",\"dweb:/ipfs/QmPy8FJFzzGP3uNcANS7nJb723Z1kxSfapFFRs6nCyHyTZ\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea2646970667358221220bcb59f13183e743ed9ffefed032aa37d3d5474e4de2e92c528de1b334cb20c2964736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea2646970667358221220bcb59f13183e743ed9ffefed032aa37d3d5474e4de2e92c528de1b334cb20c2964736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:47:1:-:0;;;85:26;;;;;;;;;;66:47;;;;;;",
+  "deployedSourceMap": "66:47:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract hamza {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\bilal\\OneDrive\\Desktop\\android blockchain based voting\\contracts\\hamza.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/hamza.sol",
+    "exportedSymbols": {
+      "hamza": [
+        7
+      ]
+    },
+    "id": 8,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "hamza",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 7,
+        "linearizedBaseContracts": [
+          7
+        ],
+        "name": "hamza",
+        "nameLocation": "75:5:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 5,
+              "nodeType": "Block",
+              "src": "106:5:1",
+              "statements": []
+            },
+            "id": 6,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "96:2:1"
+            },
+            "returnParameters": {
+              "id": 4,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "106:0:1"
+            },
+            "scope": 7,
+            "src": "85:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 8,
+        "src": "66:47:1",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:82:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-01-25T14:04:11.860Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
