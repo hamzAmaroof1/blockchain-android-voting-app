@@ -383,15 +383,15 @@
     "absolutePath": "project:/contracts/hamza.sol",
     "exportedSymbols": {
       "hamza": [
-        23
+        300
       ]
     },
-    "id": 24,
+    "id": 301,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2,
+        "id": 279,
         "literals": [
           "solidity",
           ">=",
@@ -411,9 +411,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 23,
+        "id": 300,
         "linearizedBaseContracts": [
-          23
+          300
         ],
         "name": "hamza",
         "nameLocation": "75:5:1",
@@ -421,16 +421,16 @@
         "nodes": [
           {
             "canonicalName": "hamza.Voter",
-            "id": 11,
+            "id": 288,
             "members": [
               {
                 "constant": false,
-                "id": 4,
+                "id": 281,
                 "mutability": "mutable",
                 "name": "weight",
                 "nameLocation": "115:6:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 11,
+                "scope": 288,
                 "src": "110:11:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -439,7 +439,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 3,
+                  "id": 280,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "110:4:1",
@@ -452,12 +452,12 @@
               },
               {
                 "constant": false,
-                "id": 6,
+                "id": 283,
                 "mutability": "mutable",
                 "name": "voted",
                 "nameLocation": "175:5:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 11,
+                "scope": 288,
                 "src": "170:10:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -466,7 +466,7 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 5,
+                  "id": 282,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "170:4:1",
@@ -479,12 +479,12 @@
               },
               {
                 "constant": false,
-                "id": 8,
+                "id": 285,
                 "mutability": "mutable",
                 "name": "delegate",
                 "nameLocation": "236:8:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 11,
+                "scope": 288,
                 "src": "228:16:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -493,7 +493,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 7,
+                  "id": 284,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "228:7:1",
@@ -507,12 +507,12 @@
               },
               {
                 "constant": false,
-                "id": 10,
+                "id": 287,
                 "mutability": "mutable",
                 "name": "vote",
                 "nameLocation": "282:4:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 11,
+                "scope": 288,
                 "src": "277:9:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -521,7 +521,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 9,
+                  "id": 286,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "277:4:1",
@@ -536,22 +536,22 @@
             "name": "Voter",
             "nameLocation": "94:5:1",
             "nodeType": "StructDefinition",
-            "scope": 23,
+            "scope": 300,
             "src": "87:237:1",
             "visibility": "public"
           },
           {
             "canonicalName": "hamza.Proposal",
-            "id": 16,
+            "id": 293,
             "members": [
               {
                 "constant": false,
-                "id": 13,
+                "id": 290,
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "361:4:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 16,
+                "scope": 293,
                 "src": "353:12:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -560,7 +560,7 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 12,
+                  "id": 289,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
                   "src": "353:7:1",
@@ -573,12 +573,12 @@
               },
               {
                 "constant": false,
-                "id": 15,
+                "id": 292,
                 "mutability": "mutable",
                 "name": "voteCount",
                 "nameLocation": "413:9:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 16,
+                "scope": 293,
                 "src": "408:14:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -587,7 +587,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 14,
+                  "id": 291,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "408:4:1",
@@ -602,19 +602,19 @@
             "name": "Proposal",
             "nameLocation": "334:8:1",
             "nodeType": "StructDefinition",
-            "scope": 23,
+            "scope": 300,
             "src": "327:133:1",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "2e4176cf",
-            "id": 18,
+            "id": 295,
             "mutability": "mutable",
             "name": "chairperson",
             "nameLocation": "481:11:1",
             "nodeType": "VariableDeclaration",
-            "scope": 23,
+            "scope": 300,
             "src": "466:26:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -623,7 +623,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 17,
+              "id": 294,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "466:7:1",
@@ -637,12 +637,12 @@
           },
           {
             "body": {
-              "id": 21,
+              "id": 298,
               "nodeType": "Block",
               "src": "519:2:1",
               "statements": []
             },
-            "id": 22,
+            "id": 299,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -650,25 +650,25 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 19,
+              "id": 296,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "509:2:1"
             },
             "returnParameters": {
-              "id": 20,
+              "id": 297,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "519:0:1"
             },
-            "scope": 23,
+            "scope": 300,
             "src": "498:23:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 24,
+        "scope": 301,
         "src": "66:457:1",
         "usedErrors": [],
         "usedEvents": []
@@ -682,7 +682,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-01-25T16:51:16.273Z",
+  "updatedAt": "2024-01-25T16:56:56.773Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
